@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+video {
+    z-index: 10000;
+    display: none;
+
+}
