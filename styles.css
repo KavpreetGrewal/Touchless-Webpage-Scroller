@@ -4,6 +4,7 @@ html {
 
 video {
     z-index: 10000;
-    display: none;
+    height: 0;
+    width: 0;
 
 }
