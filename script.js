@@ -19,7 +19,7 @@ script.onload = function () {
         imageScaleFactor: 0.7,  // reduce input image size for gains in speed.
         maxNumBoxes: 20,        // maximum number of boxes to detect
         iouThreshold: 0.5,      // ioU threshold for non-max suppression
-        scoreThreshold: 0.75,    // confidence threshold for predictions.
+        scoreThreshold: 0.76,    // confidence threshold for predictions.
     }
 
     const video = document.querySelector('#video');
@@ -51,15 +51,3 @@ script.onload = function () {
 
     handTrack.load(modelParams).then(lmodel => {model = lmodel;});
 };
-
-
-
-// if (navigator.mediaDevices.getUserMedia) {
-//     navigator.mediaDevices.getUserMedia({ video: true })
-//         .then(function (stream) {
-//             video.srcObject = stream;
-//         })
-//         .catch(function (err0r) {
-//             console.log("Something went wrong!");
-//         });
-// }
