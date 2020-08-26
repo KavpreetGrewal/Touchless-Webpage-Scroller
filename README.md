@@ -2,6 +2,8 @@
 
 A browser extension that allows users to scroll webpages without touching their devices. This uses a [**Tensorflow**](https://www.tensorflow.org) handtracking library which tracks the hands of the user so they can scroll up or down by simply raising their hands. Raising one hand will scroll the page down and raising two hands will scroll the page down.
 
+<img src="https://github.com/KavpreetGrewal/kavpreetgrewal.github.io/blob/master/res/handtracking.gif" height="400">
+
 ## Technologies
 This Chrome browser extension was made with JavaScript, a little bit of HTML/CSS, and using the TensorFlow handtracking library [**handtrack.js**](https://github.com/victordibia/handtrack.js/). 
 
